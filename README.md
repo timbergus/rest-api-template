@@ -2,7 +2,7 @@
 
 Everybody know how powerful are REST APIs when managing data between client and server. So I have made this template in order to implement a simple API using a few basic components like authentication and a database.
 
-First of all, we need to write our services and for that we are going to use Hapi. It is a powerful framework with a lot of tool we can use, and a really simple file structure we can implement to have our code clean and simple. Then we will secure them using JWT and finally we will expose our API structure using Swagger. And to persist the data, we will use MongoDB with Moongose.
+First of all, we need to write our services and for that we are going to use Hapi. It is a powerful framework with a lot of tool we can use, and a really simple file structure we can implement to have our code clean and simple. Then we will secure them using JWT and finally we will expose our API structure using Swagger. And to persist the data, we will use MongoDB with Mongoose.
 
 ## Components
 
