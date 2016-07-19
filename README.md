@@ -61,7 +61,7 @@ These tools expose our API in `/documentation` path. All this information is def
 
 This tool is going to be used to log our server activity where ever we need it.
 
-### [MongoDB](https://www.mongodb.com/) and [Mongoose](http://mongoosejs.com/)
+###[MongoDB](https://www.mongodb.com/) and [Mongoose](http://mongoosejs.com/)
 
 To persist our data we are going to use MongoDB. A very powerful document based database. And to simplify the task we are going to use an ODM called Mongoose.
 
@@ -116,4 +116,4 @@ To test we are going to use a simple file structure with a short script to launc
 
 For the coverage, we will use [NYC](https://github.com/istanbuljs/nyc) that creates a nice site like output to show our test coverage.
 
-The magic is inside the __test.js__ file. Using [glob](https://github.com/isaacs/node-glob) we are going to retrieve all the __\_test\___folders inside our project and launch its __index.js__ files.
+The magic is inside the __test.js__ file. Using [glob](https://github.com/isaacs/node-glob) we are going to retrieve all the __\_test\___ folders inside our project and launch its __index.js__ files.
