@@ -6,7 +6,7 @@ First of all, we need to write our services and for that we are going to use Hap
 
 ## Components
 
-### [Hapi](http://hapijs.com/)
+###[Hapi](http://hapijs.com/)
 
 Hapi is a backend framework that will allow us to create our API. To do that, we need to create our server using a configuration object to define __host__, __port__ and __cors__ in the main file of our API, a __routes.js__ file to define our services and a __handler.js__ file where we are going to define the functions which are going to respond to each service.
 
