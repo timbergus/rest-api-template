@@ -102,7 +102,7 @@ So if we see the `newUser` structure we will see:
 {
   "_id": "<unique id>",
   "username": "fake_user",
-  "password": "fake_password"'
+  "password": "fake_password"
 }
 ```
 
