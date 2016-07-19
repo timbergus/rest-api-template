@@ -8,7 +8,6 @@ const AuthBearer = require('hapi-auth-bearer-token');
 const Pack = require('../package');
 const Mongoose = require('mongoose');
 
-
 const { routes } = require('./routes');
 const { validate } = require('./auth');
 
@@ -29,8 +28,7 @@ server.connection({
   port: parseInt(process.env.PORT, 10) || 1337,
   routes: {
     cors: {
-      origin: ['*'],
-      additionalHeaders: ['username', 'token']
+      origin: ['*']
     }
   }
 });
@@ -80,8 +78,8 @@ server.register([
 ], error => {
 
   if (error) {
-      throw error;
-}
+    throw error;
+  }
 
   server.auth.strategy('simple', 'bearer-access-token', { validateFunc: validate });
   server.route(routes);
